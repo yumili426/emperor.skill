@@ -1,0 +1,74 @@
+{
+  "dynasty_name": "大明",
+  "era_name": "",
+  "current_year": 1,
+  "current_month": 1,
+  "current_day": 1,
+  "stats": {
+    "economy": 70,
+    "military": 60,
+    "culture": 75,
+    "stability": 65,
+    "popularity": 80
+  },
+  "treasury": 10000,
+  "army": 50000,
+  "territory": {
+    "core": ["京师", "江南", "蜀中"],
+    "border": ["北境", "西疆"],
+    "contested": ["南疆"]
+  },
+  "neighbors": [
+    {
+      "name": "北元",
+      "relation": "hostile",
+      "power": 75,
+      "army": 40000
+    },
+    {
+      "name": "朝鲜",
+      "relation": "tributary",
+      "power": 40,
+      "army": 15000
+    }
+  ],
+  "court_positions": {
+    "shoufu": null,
+    "cifu": null,
+    "personnel_shangshu": null,
+    "revenue_shangshu": null,
+    "rites_shangshu": null,
+    "war_shangshu": null,
+    "justice_shangshu": null,
+    "works_shangshu": null,
+    "jinwei_commander": null,
+    "dongchang_commander": null,
+    "empress": null,
+    "crown_prince": null
+  },
+  "crown_prince": {
+    "has_heir": false,
+    "current_heir": null,
+    "princes": []
+  },
+  "harem": {
+    "empress": null,
+    "guifei": null,
+    "fei": [],
+    "pin": [],
+    "guiren": []
+  },
+  "spy_system": {
+    "unlocked": false,
+    "jinyiwei": false,
+    "dongchang": false,
+    "xichang": false,
+    "unlock_events_triggered": []
+  },
+  "examination_cycle": {
+    "last_xiangshi": 0,
+    "next_xiangshi": 3,
+    "last_huishi": 0,
+    "last_dianshi": 0
+  }
+}
